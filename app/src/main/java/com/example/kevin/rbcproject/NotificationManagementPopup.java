@@ -5,7 +5,6 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.telephony.SmsManager;
 
 /**
  * Created by Kevin on 2016-09-25.
@@ -35,7 +34,7 @@ public class NotificationManagementPopup extends DialogFragment {
     }
 
     public void sendSMSMessage() {
-        String phoneNo = "6474066364";
+/*        String phoneNo = "6474066364";
         String message = "Test sms from e-Expense";
 
         try {
@@ -45,7 +44,7 @@ public class NotificationManagementPopup extends DialogFragment {
 
         catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
 }
